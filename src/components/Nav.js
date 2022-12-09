@@ -19,7 +19,7 @@ const Nav = () => {
         highlight();
     });
     return(
-        <nav onLoad={highlight} onClick={highlight} className="navbar navbar-expand-lg navbar-light px-4 py-4">
+        <nav onClick={highlight} className="navbar navbar-expand-lg navbar-light px-4 py-4">
             <Link to="/">
                 <h1 className="navbar-brand font-weight-bold"><strong>JANAE WELSH</strong></h1>
             </Link>
