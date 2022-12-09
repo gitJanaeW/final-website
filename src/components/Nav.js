@@ -1,5 +1,6 @@
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import {Link} from "react-router-dom";
+import highlight from "../utils/highlight";
 
 const Nav = () => {
     const [clickedAbout, setAbout] = useState(true);
@@ -12,9 +13,13 @@ const Nav = () => {
         setPortfolio(path === "/portfolio");
         setContact(path === "/contact");
         setResume(path ==="/resume");
+        console.log("I checked for pathname!!")
     };
+    useEffect(() => {
+        highlight();
+    });
     return(
-        <nav onClick={highlight} className="navbar navbar-expand-lg navbar-light px-4 py-4">
+        <nav onLoad={highlight} onClick={highlight} className="navbar navbar-expand-lg navbar-light px-4 py-4">
             <Link to="/">
                 <h1 className="navbar-brand font-weight-bold"><strong>JANAE WELSH</strong></h1>
             </Link>
