@@ -1,8 +1,15 @@
 const experiences = [
     {
+        key: "ta",
+        title: "Web Development Teaching Assistant",
+        description: "Passionately teaching full-stack skills in HTML, CSS, JavaScript and adjacent technologies (ex. Git, MERN, MySQL) during class and office hours. Marking the major projects of students while kindly and critically providing feedback for improvement. Empowering students to orderly investigate problems and equipping them with the tools to research their own solutions.",
+        company: "EdX ",
+        duration: "(Jan 2023 - Present)",
+    },
+    {
         key: "tutor",
         title: "English Tutor & Essay Reviewer",
-        description: "Empowering students to synthesize their own answers with question-based prompting. Efficiently employing on-the-fly research skills in live sessions while engaging with students. Adapting complex explanations to the needs of students (K - Grade 12).",
+        description: "Helping students to synthesize their own answers with an inquiry-based approach to teaching. Efficiently employing on-the-fly research skills in live sessions while engaging with students. Adapting complex explanations to the needs of students (K - Grade 12).",
         company: "Paper Co. ",
         duration: "(Jan 2022 - Present)",
     },
@@ -23,7 +30,7 @@ const experiences = [
     {
         key: "supervisor",
         title: "Supervisor",
-        description: "Adaptively performed front and back-store operations while supervising junior staff. Assisted in organized daily operations by assigning breaks to junior staff at appropriate down-times. Ensured the success of new employees with comprehensive training and a self-made handbook.",
+        description: "Assisted in organizing daily operations by assigning breaks to junior staff at appropriate down-times. Ensured the success of new employees with comprehensive training and a self-made handbook.",
         company: "Shoppers Drug Mart ",
         duration: "(Mar 2020 - Aug 2021)"
     }
