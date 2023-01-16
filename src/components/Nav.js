@@ -15,9 +15,9 @@ const Nav = () => {
         setResume(path ==="/resume");
         console.log("I checked for pathname!!")
     };
-    useEffect(() => {
-        highlight();
-    });
+    // useEffect(() => {
+    //     highlight();
+    // });
     return(
         <nav onClick={highlight} className="navbar navbar-expand-lg navbar-light px-4 py-4">
             <Link to="/">
