@@ -22,7 +22,7 @@ const mainProjects = [
         img: rescueChow,
         imgAlt: "The landing page of Rescue Chow",
         technologies: "Mongoose | Express | React",
-        status: "Deployed"
+        status: "Finished"
     },
     {
         key: "upgrad",
@@ -32,7 +32,7 @@ const mainProjects = [
         img: upgrad,
         imgAlt: "The landing page of upGrad",
         technologies: "Express | Sequelize | Handlebars",
-        status: "Deployed"
+        status: "Finished"
     },
     {
         key: "showgo",
