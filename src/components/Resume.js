@@ -41,6 +41,7 @@ const Resume = () => {
                     <h2 className="my-4 pt-3">EXPERIENCE</h2>
                     <LazyLoad height={300} offset={0} once>
                         <div className="text-wrap">
+                            {console.log(experiences)}
                             {experiences.map((experience) => (
                                 <div key={experience.key}>
                                     <h5 className="mb-0">{experience.title}</h5>
